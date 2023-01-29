@@ -55,14 +55,14 @@ nav li a:hover {
     color: var(--tan);
 }
 
-ul {
+nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
     margin: 0 auto;
 }
 
-.lessons {
+.lessons, .tutorial-row {
     display: flex;
     gap: 25px;
     width: 70%;
@@ -141,4 +141,24 @@ h4 {
 #zoom, #sources, #ettiquette {
     width: 70%;
     margin: 35px auto;
+}
+
+img {
+    width: 100%;
+}
+
+.img-caption {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.link:hover {
+    color: var(--tan);
+}
+
+.tutorial-title {
+    font-family: 'Monaco', sans-serif;
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center;
 }

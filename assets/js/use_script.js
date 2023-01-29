@@ -4,6 +4,11 @@ document.getElementById("security").style.display = "none";
 document.getElementById("back-top").style.display = "none";
 document.getElementById("back-bottom").style.display = "none";
 document.getElementById("back").style.display = "none";
+document.getElementById("mail-tutorial").style.display = "none";
+document.getElementById("docs-tutorial").style.display = "none";
+document.getElementById("slides-tutorial").style.display = "none";
+document.getElementById("yt-tutorial").style.display = "none";
+document.getElementById("cal-tutorial").style.display = "none";
 
 // open top headings
 function openGoogleSuite() {
@@ -44,51 +49,62 @@ function openSecurity() {
 
 // open sub-headings
 function openDocs() {
+    resetGoogle();
     document.getElementById("mail").style.display = "none";
     document.getElementById("slides").style.display = "none";
     document.getElementById("yt").style.display = "none";
     document.getElementById("cal").style.display = "none";
     // document.getElementById("sheets").style.display = "none";
     document.getElementById("back-top").style.display = "block";
+    document.getElementById("docs-tutorial").style.display = "block";
 }
 
 function openMail() {
+    resetGoogle();
     document.getElementById("docs").style.display = "none";
     document.getElementById("slides").style.display = "none";
     document.getElementById("yt").style.display = "none";
     document.getElementById("cal").style.display = "none";
     // document.getElementById("sheets").style.display = "none";
     document.getElementById("back-top").style.display = "block";
+    document.getElementById("mail-tutorial").style.display = "block";
 }
 
 function openSlides() {
+    resetGoogle();
     document.getElementById("docs").style.display = "none";
     document.getElementById("mail").style.display = "none";
     document.getElementById("yt").style.display = "none";
     document.getElementById("cal").style.display = "none";
     // document.getElementById("sheets").style.display = "none";
     document.getElementById("back-top").style.display = "block";
+    document.getElementById("slides-tutorial").style.display = "block";
 }
 
 function openYT() {
+    resetGoogle();
     document.getElementById("docs").style.display = "none";
     document.getElementById("slides").style.display = "none";
     document.getElementById("mail").style.display = "none";
     document.getElementById("cal").style.display = "none";
     // document.getElementById("sheets").style.display = "none";
     document.getElementById("back-bottom").style.display = "block";
+    document.getElementById("yt-tutorial").style.display = "block";
 }
 
 function openCal() {
+    resetGoogle();
     document.getElementById("docs").style.display = "none";
     document.getElementById("slides").style.display = "none";
     document.getElementById("yt").style.display = "none";
     document.getElementById("mail").style.display = "none";
     // document.getElementById("sheets").style.display = "none";
     document.getElementById("back-bottom").style.display = "block";
+    document.getElementById("cal-tutorial").style.display = "block";
 }
 
 function openSheets() {
+    resetGoogle();
     document.getElementById("docs").style.display = "none";
     document.getElementById("slides").style.display = "none";
     document.getElementById("yt").style.display = "none";
@@ -106,6 +122,11 @@ function resetGoogle() {
     // document.getElementById("sheets").style.display = "block";
     document.getElementById("back-top").style.display = "none";
     document.getElementById("back-bottom").style.display = "none";
+    document.getElementById("mail-tutorial").style.display = "none";
+    document.getElementById("docs-tutorial").style.display = "none";
+    document.getElementById("slides-tutorial").style.display = "none";
+    document.getElementById("yt-tutorial").style.display = "none";
+    document.getElementById("cal-tutorial").style.display = "none";
 }
 
 function openPI() {
