@@ -39,6 +39,15 @@ h3 {
     color: var(--black);
 }
 
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+a:hover {
+    color: var(--tan);
+}
+
 nav li {
     display: inline-block;
     padding: 0 20px;
