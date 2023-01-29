@@ -1,5 +1,5 @@
 document.getElementById("google").style.display = "none";
-document.getElementById("zoom").style.display = "none";
+//document.getElementById("zoom").style.display = "none";
 document.getElementById("security").style.display = "none";
 document.getElementById("back-top").style.display = "none";
 document.getElementById("back-bottom").style.display = "none";
@@ -8,7 +8,7 @@ document.getElementById("mail-tutorial").style.display = "none";
 document.getElementById("docs-tutorial").style.display = "none";
 //document.getElementById("slides-tutorial").style.display = "none";
 document.getElementById("yt-tutorial").style.display = "none";
-document.getElementById("cal-tutorial").style.display = "none";
+//document.getElementById("cal-tutorial").style.display = "none";
 document.getElementById("virus-tutorial").style.display = "none";
 document.getElementById("pi-tutorial").style.display = "none";
 document.getElementById("pw-tutorial").style.display = "none";
@@ -18,7 +18,7 @@ function openGoogleSuite() {
     var x = document.getElementById("google");
     if (x.style.display === "none") {
         x.style.display = "block";
-        document.getElementById("zoom").style.display = "none";
+        //document.getElementById("zoom").style.display = "none";
         document.getElementById("security").style.display = "none";
         
     } else {
@@ -40,10 +40,11 @@ function openZoom() {
 
 function openSecurity() {
     var x = document.getElementById("security");
+    resetSecurity();
     if (x.style.display === "none") {
         x.style.display = "block";
         document.getElementById("google").style.display = "none";
-        document.getElementById("zoom").style.display = "none";
+        //document.getElementById("zoom").style.display = "none";
         
     } else {
         x.style.display = "none";
@@ -56,7 +57,7 @@ function openDocs() {
     document.getElementById("mail").style.display = "none";
     //document.getElementById("slides").style.display = "none";
     document.getElementById("yt").style.display = "none";
-    document.getElementById("cal").style.display = "none";
+    //document.getElementById("cal").style.display = "none";
     // document.getElementById("sheets").style.display = "none";
     document.getElementById("back-top").style.display = "block";
     document.getElementById("docs-tutorial").style.display = "block";
@@ -67,7 +68,7 @@ function openMail() {
     document.getElementById("docs").style.display = "none";
     //document.getElementById("slides").style.display = "none";
     document.getElementById("yt").style.display = "none";
-    document.getElementById("cal").style.display = "none";
+    //document.getElementById("cal").style.display = "none";
     // document.getElementById("sheets").style.display = "none";
     document.getElementById("back-top").style.display = "block";
     document.getElementById("mail-tutorial").style.display = "block";
@@ -78,7 +79,7 @@ function openSlides() {
     document.getElementById("docs").style.display = "none";
     document.getElementById("mail").style.display = "none";
     document.getElementById("yt").style.display = "none";
-    document.getElementById("cal").style.display = "none";
+    //document.getElementById("cal").style.display = "none";
     // document.getElementById("sheets").style.display = "none";
     document.getElementById("back-top").style.display = "block";
     //document.getElementById("slides-tutorial").style.display = "block";
@@ -89,7 +90,7 @@ function openYT() {
     document.getElementById("docs").style.display = "none";
     //document.getElementById("slides").style.display = "none";
     document.getElementById("mail").style.display = "none";
-    document.getElementById("cal").style.display = "none";
+    //document.getElementById("cal").style.display = "none";
     // document.getElementById("sheets").style.display = "none";
     document.getElementById("back-bottom").style.display = "block";
     document.getElementById("yt-tutorial").style.display = "block";
@@ -103,7 +104,7 @@ function openCal() {
     document.getElementById("mail").style.display = "none";
     // document.getElementById("sheets").style.display = "none";
     document.getElementById("back-bottom").style.display = "block";
-    document.getElementById("cal-tutorial").style.display = "block";
+    //document.getElementById("cal-tutorial").style.display = "block";
 }
 
 function openSheets() {
@@ -111,7 +112,7 @@ function openSheets() {
     document.getElementById("docs").style.display = "none";
     //document.getElementById("slides").style.display = "none";
     document.getElementById("yt").style.display = "none";
-    document.getElementById("cal").style.display = "none";
+    //document.getElementById("cal").style.display = "none";
     document.getElementById("mail").style.display = "none";
     document.getElementById("back-bottom").style.display = "block";
 }
@@ -121,7 +122,7 @@ function resetGoogle() {
     document.getElementById("docs").style.display = "block";
     //document.getElementById("slides").style.display = "block";
     document.getElementById("yt").style.display = "block";
-    document.getElementById("cal").style.display = "block";
+    //document.getElementById("cal").style.display = "block";
     // document.getElementById("sheets").style.display = "block";
     document.getElementById("back-top").style.display = "none";
     document.getElementById("back-bottom").style.display = "none";
@@ -129,7 +130,7 @@ function resetGoogle() {
     document.getElementById("docs-tutorial").style.display = "none";
     //document.getElementById("slides-tutorial").style.display = "none";
     document.getElementById("yt-tutorial").style.display = "none";
-    document.getElementById("cal-tutorial").style.display = "none";
+    //document.getElementById("cal-tutorial").style.display = "none";
 }
 
 function openPI() {

@@ -179,3 +179,13 @@ img {
     width: 70%;
     margin: 20px auto;
 }
+
+#pi-tutorial, #pw-tutorial, #virus-tutorial {
+    width:70%;
+    margin: 0 auto;
+}
+
+#pw-tutorial h4, #virus-tutorial h4 {
+    font-size: 20px;
+    font-family: 'Monaco', sans-serif;
+}
