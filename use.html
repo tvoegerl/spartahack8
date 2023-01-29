@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Bridge - Use</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <header>
+        <h1>DIGITAL BRIDGE</h1>
+        <nav>
+            <ul>
+                <li><a title="navbar" href="index.html">Home</a></li>
+                <li><a title="navbar" href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>USE DIVIDE</h2>
+    <section class="lessons">
+        <a class="lesson" onclick="openGoogleSuite()">
+            <h3>Google Suite</h3>
+        </a>
+        <a class="lesson" onclick="openZoom()">
+            <h3>Zoom</h3>
+        </a>
+        <a class="lesson" onclick="openSecurity()">
+            <h3>Security</h3>
+        </a>
+    </section>
+    <hr>
+    <div id="google">
+        <section class="lessons">
+            <a class="lesson" id="mail" onclick="openMail()">
+                <h4>Google Mail</h4>
+            </a>
+            <a class="lesson" id="docs" onclick="openDocs()">
+                <h4>Google Docs</h4>
+            </a>
+            <a class="lesson" id="slides" onclick="openSlides()">
+                <h4>Google Slides</h4>
+            </a>
+            <a class="lesson" id="back-top" onclick="resetGoogle()">
+                <h4>Back</h4>
+            </a>
+        </section>
+        <section class="lessons">
+            <a class="lesson" id="yt" onclick="openYT()">
+                <h4>Youtube</h4>
+            </a>
+            <!--
+            <a class="lesson" id="sheets" onclick="openSheets()">
+                <h4>Google Sheets</h4>
+            </a>
+            -->
+            <a class="lesson" id="cal" onclick="openCal()">
+                <h4>Google Calendar</h4>
+            </a>
+            <a class="lesson" id="back-bottom" onclick="resetGoogle()">
+                <h4>Back</h4>
+            </a>
+        </section>
+    </div>
+    <div id="zoom">
+        <h4>Zoom Tutorial</h4>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+    <div id="security">
+        <section class="lessons">
+            <a class="lesson" id="pi" onclick="openPI()">
+                <h4>Personal Information</h4>
+            </a>
+            <a class="lesson" id="virus" onclick="openVirus()">
+                <h4>Viruses</h4>
+            </a>
+            <a class="lesson" id="pw" onclick="openPW()">
+                <h4>Passwords</h4>
+            </a>
+            <a class="lesson" id="back" onclick="resetSecurity()">
+                <h4>Back</h4>
+            </a>
+        </section>
+    </div>
+    <script src="assets/js/use_script.js"></script>
+</body>
+</html>
